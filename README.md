@@ -14,8 +14,6 @@ This csv contains the raw data for developing the models.
 
 ### Overview of the Analysis
 
-* In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
 The analysis conducted in this repository attempts to develop a logistic regression model for predicting the status of loans as healthy or high-risk. The data set includes financial information such as the initial principle amount of the loan, the interest rate, and the borrower's annual income. Healthy loans are assigned a 'loan status' of 0; loans at high risk of defaulting are assigned a 'loan status' of 1. The dataset included 75,036 healthy loans and 2500 high-risk loans.
 
 Developing the models included extracting a set of data on which to train the model, fitting the model to this training data, and testing the model against a testing set, or the whole dataset. It is preferable to test against data that does not include any of the data on which the model was trained, but for constraints of time and technology, this was not possible for this project.
